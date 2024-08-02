@@ -1,12 +1,15 @@
-# NetflixGPT
+# WatchGPT
 
 - create-react-app
 - configured tailwindcss
+- Header
+- Login form
+- SignUp form
 
 
 # Features
 
-- Login/Signup
+- Login/Signup 
     - SignIn/SignUp form
     - redirect to browse page
 - Browse (after authentication)
@@ -16,7 +19,7 @@
         - Title and description
         - Movie Suggestions
              - Movie lists * n
-- NetflixGPT
+- WatchGPT
     - Search Bar
     - Movie Suggestions
 
