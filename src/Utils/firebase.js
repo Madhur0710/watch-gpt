@@ -9,14 +9,16 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCHhQDCE5BzFZQJe6lHcKNuFeftsSycIeI",
-  authDomain: "watchgpt-9f8ba.firebaseapp.com",
-  projectId: "watchgpt-9f8ba",
-  storageBucket: "watchgpt-9f8ba.appspot.com",
-  messagingSenderId: "448540036571",
-  appId: "1:448540036571:web:0dc3f0fce4931d6281ebfe",
-  measurementId: "G-D8S8TVCSRH"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
+
+console.log(process.env.REACT_APP_FIREBASE_API_KEY);
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
