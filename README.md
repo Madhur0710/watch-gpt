@@ -34,7 +34,11 @@
 - Build Movie Card
 - TMDB Img CDN url
 - Some custom hooks to fetch different genre movie data
-- made the browser page
+- Made the browser page
+- GPT Search feature
+- GPT Search Bar
+- Multi-Language feature in GPT Search Bar
+- Integrate GPT API
 
 
 
