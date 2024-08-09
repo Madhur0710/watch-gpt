@@ -1,61 +1,16 @@
-# WatchGPT
+This project is a web platform inspired by Netflix. It includes features like movie searching, authentication, and dynamic content using various technologies.
 
-- create-react-app
-- configured tailwindcss
-- Header
-- Routing
-- Login form
-- SignUp form
-- Form Validation
-- useRef hook
-- Firebase Setup
-- Deploying on firebase
-- Create Signup user Account
-- Implement Sign In user Api
-- Created Redux Store(userSlice)
-- Implemented Sign Out
-- Update Profile Api
-- Updating user with the displayName
-- BugFix - if user is not logged in, redirect /browse to / and vice-versa
-- Unsubscribed to the onauthStateChange callback
-- Add hardcoded values to constants file
-- Registered TMDB API & created an app & get access token
-- Get data from TMDB now playing movie list API
-- Custom hook for now Playing Movies
-- Create movieSlice
-- Update store with movies data
-- Planning for MainContainer and SecondaryContainer
-- Fetch data for trailer video
-- Update store with trailer video data
-- Embedded youtube video and make it autoplay and mute
-- Tailwind classes to make MainContainer look awesome
-- Build SecondaryContainer 
-- Build Movie List
-- Build Movie Card
-- TMDB Img CDN url
-- Some custom hooks to fetch different genre movie data
-- Made the browser page
-- GPT Search feature
-- GPT Search Bar
-- Multi-Language feature in GPT Search Bar
-- Integrate GPT API
+Key Features-
+User Authentication: Sign up, login, and profile management using Firebase.
+Movie Search: Search for movies with dynamic fetching from TMDB API.
+Dynamic Content: Display movie lists, trailers, and details with custom hooks and Redux for state management.
+Multi-Language Support: Localization of the search bar with internationalization support.
+Responsive Design: Fully responsive UI using Tailwind CSS for a seamless experience across devices.
 
-
-
-# Features
-
-- Login/Signup 
-    - SignIn/SignUp form
-    - redirect to browse page
-- Browse (after authentication)
-    - Header
-    -Main Movie
-        - Trailer in background
-        - Title and description
-        - Movie Suggestions
-             - Movie lists * n
-- WatchGPT
-    - Search Bar
-    - Movie Suggestions
-
-
+Technologies Used-
+React: Frontend library for building the user interface.
+Tailwind CSS: For styling and responsive design.
+Firebase: For authentication and backend services.
+TMDB API: For fetching movie data.
+Redux: State management for handling global data.
+Netlify: For deployment.
