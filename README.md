@@ -14,3 +14,5 @@ Firebase: For authentication and backend services.
 TMDB API: For fetching movie data.
 Redux: State management for handling global data.
 Netlify: For deployment.
+
+Live URL - https://watchgpt-madhur.netlify.app/
